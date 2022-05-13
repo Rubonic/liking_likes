@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px dotted red; */
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+}
+
+/* Utility Styles Start */
+
+/* Utility Styles End */
+
+.container {
+    margin: 0 150px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+h1 {
+    padding: 20px;
+    color: white;
+}
+.yourFeed {
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.leftColumn {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+}
+.avatar {
+    min-height: 250px;
+    border: 4px solid black;
+}
+.rightColumn {
+    flex: 3;
+}
+.feed {
+    height: 150px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 4%;
+    border: 4px solid black;
+    overflow: hidden;
+}
+#avatar {
+    width: 40%;
+    margin: 30px 30%;
+}
+#addAvatar {
+    display: block;
+    text-align: center;
+    font-size:larger
+    
+}
+#avatarName {
+    text-align: center;
+    margin-top: 20px;
+}
+.feedInfo {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedText {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.feedName {
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.feedName h2 {
+    height: 100%;
+}
+.likeCount {
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    font-size: 15px;
+}
+.likeBtn {
+    font-size: larger;
+    margin-left: 20%;
+    padding: 5px 20px;
+    background-color: gold;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+    transition-duration: 0.1s;
+}
+.likeBtn:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.feedText p {
+    font-size: 20px;
+    padding: 0 5%;
+}
+
